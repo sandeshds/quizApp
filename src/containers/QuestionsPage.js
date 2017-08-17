@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Questions from '../components/questions'
 
 class QuestionsPage extends Component {
     render() {
         return (
-            <h2>hello </h2>
+            <Questions />
         )
     }
 }
