@@ -4,7 +4,7 @@ import './index.css';
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore, combineReducers, compose } from 'redux';
 import thunk from 'redux-thunk';
-import App from './App.js'
+import quizApp from './quizApp'
 
 let reducers = combineReducers({
 });
@@ -16,7 +16,7 @@ const store = compose(
 
 ReactDOM.render(
     	<Provider store={store}>
-			{<App />}
+			{<quizApp />}
 		</Provider>,
 	document.getElementById('root')
 );
