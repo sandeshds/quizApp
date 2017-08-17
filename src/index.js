@@ -4,19 +4,20 @@ import './index.css';
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore, combineReducers, compose } from 'redux';
 import thunk from 'redux-thunk';
-import quizApp from './quizApp'
+import QuizApp from './quizApp'
 
 let reducers = combineReducers({
+	
 });
 
 const store = compose(
     applyMiddleware(thunk)
-)(createStore)(reducers, {});
+)(createStore)(() => {}, {});
 
 
 ReactDOM.render(
     	<Provider store={store}>
-			{<quizApp />}
+			<QuizApp />
 		</Provider>,
 	document.getElementById('root')
 );
