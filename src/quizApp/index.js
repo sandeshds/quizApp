@@ -8,7 +8,8 @@ class QuizApp extends Component {
     return (		
     	<div>
             <Router history={browserHistory}>
-                <Route path="/" component={containers.QuestionsPage}/>
+                <Route path="/" component={containers.Board}/>
+                <Route path="/results" component={containers.Results}/>
             </Router>
 	  	</div>
     );

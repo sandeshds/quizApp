@@ -1,5 +1,7 @@
-import QuestionsPage from './QuestionsPage';
+import Board from './Board';
+import Results from './Results';
 
 export {
-    QuestionsPage
+    Board,
+    Results
 }

@@ -5,10 +5,10 @@ import { Provider } from 'react-redux';
 import { applyMiddleware, createStore, combineReducers, compose } from 'redux';
 import thunk from 'redux-thunk';
 import QuizApp from './quizApp';
-import QuestionsReducer from './components/questions/QuestionsReducer';
+import Quiz from './components/quiz/QuizReducer';
 
 let reducers = combineReducers({
-	QuestionsReducer
+	Quiz
 });
 
 const store = compose(
