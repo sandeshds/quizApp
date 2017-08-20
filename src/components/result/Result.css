@@ -1,0 +1,41 @@
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+table {
+    width:fit-content;
+    height:fit-content;
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.resultsBlock {
+    font-size: larger;
+    background-color: #0E5D47;
+    color: white;
+    height: -webkit-fill-available;
+    border: 20px solid #6E320D;
+}
+
+.buttonRetake {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: large;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom:10%;
+}
