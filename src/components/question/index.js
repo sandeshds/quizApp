@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import map from 'lodash/map';
+import './Question.css';
 
 const propTypes = {
     allQuestions: PropTypes.array.isRequired,
@@ -24,7 +25,7 @@ class Question extends PureComponent {
 
     render() {
         return (
-            <div>
+            <div className='questionBlock'>
                 <div>
                     <h3>Javascript Quiz {this.props.questionToDisplay + 1} of {this.props.allQuestions.length} </h3>
                     <h4>{this.props.allQuestions[this.props.questionToDisplay].text}</h4>

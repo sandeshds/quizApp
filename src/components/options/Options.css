@@ -1,0 +1,16 @@
+.optionsBlock {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom:20px;
+    left:40%;
+}
+
+.button {
+    margin-right: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 70px;
+    font-size: large;
+}

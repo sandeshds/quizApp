@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Question from './../question';
 import Options from './../options';
 import cloneDeep from 'lodash/cloneDeep';
-import './quiz.css'
+import './Quiz.css'
 
 class Quiz extends Component {
     constructor(props) {
