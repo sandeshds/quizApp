@@ -1,0 +1,7 @@
+.quizBlock {
+  font-size: larger;
+  background-color: #0E5D47;
+  color: white;
+  height: -webkit-fill-available;
+  border: 20px solid #6E320D;
+   }

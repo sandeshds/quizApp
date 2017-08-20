@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Question from './../question';
 import Options from './../options';
 import cloneDeep from 'lodash/cloneDeep';
+import './quiz.css'
 
 class Quiz extends Component {
     constructor(props) {
@@ -35,7 +36,7 @@ class Quiz extends Component {
 
     render() {
         return (
-            <div>
+            <div className="quizBlock">
                {this.props.showFetchingQuestionsSpinner ? <h2>waiting</h2> : 
                <div>
                     <Question
