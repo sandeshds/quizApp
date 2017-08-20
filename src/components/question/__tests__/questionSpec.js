@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import renderer from 'react-test-renderer';
 import Question from './../index';
 
-describe('Button', ()=>{
+describe('Question', ()=>{
     it('should render question properly', ()=>{
         let questions = [{
             "text": "This is the first question",

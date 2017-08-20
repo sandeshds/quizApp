@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import renderer from 'react-test-renderer';
 import Result from './../index';
 
-describe('Button', ()=>{
+describe('Result', ()=>{
     it('should render result properly', ()=>{
         let results = {
             totalNumberOfQuestions : 8,

@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Quiz from './../index';
 import { shallow } from 'enzyme';
 
-describe('Button', ()=>{
+describe('Quiz', ()=>{
     it('should render the entire quiz properly', ()=>{
         let questions = [{
             "text": "This is the first question",
@@ -57,9 +57,6 @@ describe('Button', ()=>{
                 
         expect(wrapper.instance().state.answers[0].questionAnswered).toEqual(0);
         expect(wrapper.instance().state.answers[0].answeredCorrectly).toEqual(true);
-
-        // wrapper.instance().updateStateAndGetNextQuestion(3);
-        // expect(wrapper.instance().state.answers[1].questionAnswered).toEqual(1);
-        // expect(wrapper.instance().state.answers[1].answeredCorrectly).toEqual(false);
+        expect(wrapper.instance().state.questionToDisplay).toEqual(1);
     })
 });

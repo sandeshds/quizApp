@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render result properly 1`] = `
+exports[`Result should render result properly 1`] = `
 <div
   className="resultsBlock"
 >

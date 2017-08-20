@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render question properly 1`] = `
+exports[`Question should render question properly 1`] = `
 <div
   className="questionBlock"
 >

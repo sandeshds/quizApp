@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render options properly 1`] = `
+exports[`Options should render options properly 1`] = `
 <div
   className="optionsBlock"
 >
