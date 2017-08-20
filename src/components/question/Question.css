@@ -1,4 +1,22 @@
 .questionBlock {
-    margin: 40px;
+    margin-left: 5%;
     font-size: inherit;
+}
+
+.questionCounter {
+    font-size: small;
+}
+
+.question {
+    font-size: large;
+    margin-left: 5px;
+}
+
+.optionBlock {
+    margin-top: 40px;
+    font-size: medium
+}
+
+.option {
+    margin-top: 10px;
 }

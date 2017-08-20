@@ -17,8 +17,8 @@ class Question extends PureComponent {
             3 : 'D'
         };
         return map(this.props.allQuestions[this.props.questionToDisplay].options, (option, index) => {
-            return  <div>
-                        <div>{optionsMap[index]} - {option}</div> <br/>
+            return  <div className='option'>
+                        <div>{optionsMap[index]} - {option}</div>
                     </div>;
         });
     };
@@ -27,10 +27,10 @@ class Question extends PureComponent {
         return (
             <div className='questionBlock'>
                 <div>
-                    <h3>Javascript Quiz {this.props.questionToDisplay + 1} of {this.props.allQuestions.length} </h3>
-                    <h4>{this.props.allQuestions[this.props.questionToDisplay].text}</h4>
+                    <span className='questionCounter'>Javascript Quiz {this.props.questionToDisplay + 1} of {this.props.allQuestions.length} </span><br/>
+                    <span className='question'>{this.props.allQuestions[this.props.questionToDisplay].text}</span>
                 </div>
-                <div>
+                <div className='optionBlock'>
                     {this.getOptions()}
                 </div>
             </div>
