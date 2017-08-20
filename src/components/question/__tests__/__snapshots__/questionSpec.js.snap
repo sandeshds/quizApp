@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render question properly 1`] = `
+<div
+  className="questionBlock"
+>
+  <div>
+    <span
+      className="questionCounter"
+    >
+      Javascript Quiz 
+      1
+       of 
+      1
+       
+    </span>
+    <br />
+    <span
+      className="question"
+    >
+      This is the first question
+    </span>
+  </div>
+  <div
+    className="optionBlock"
+  >
+    <div
+      className="option"
+    >
+      <div>
+        A
+         - 
+        answer1
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <div>
+        B
+         - 
+        answer2
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <div>
+        C
+         - 
+        answer3
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <div>
+        D
+         - 
+        answer4
+      </div>
+    </div>
+  </div>
+</div>
+`;

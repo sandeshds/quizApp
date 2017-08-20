@@ -55,7 +55,7 @@ class Quiz extends Component {
 }
 
 Quiz.propTypes = Object.assign({}, Component.propTypes, {
-    fetchStations: PropTypes.func,
+    fetchQuestions: PropTypes.func,
     showFetchingQuestionsSpinner: PropTypes.bool
 });
 

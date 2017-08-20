@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render options properly 1`] = `
+<div
+  className="optionsBlock"
+>
+  <input
+    className="button"
+    onClick={[Function]}
+    type="button"
+    value="A"
+  />
+  <input
+    className="button"
+    onClick={[Function]}
+    type="button"
+    value="B"
+  />
+  <input
+    className="button"
+    onClick={[Function]}
+    type="button"
+    value="C"
+  />
+  <input
+    className="button"
+    onClick={[Function]}
+    type="button"
+    value="D"
+  />
+</div>
+`;

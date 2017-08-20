@@ -17,7 +17,7 @@ class Question extends PureComponent {
             3 : 'D'
         };
         return map(this.props.allQuestions[this.props.questionToDisplay].options, (option, index) => {
-            return  <div className='option'>
+            return  <div key={index} className='option'>
                         <div>{optionsMap[index]} - {option}</div>
                     </div>;
         });

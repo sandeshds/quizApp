@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render fetching questions text properly 1`] = `
+<div
+  className="quizBlock"
+>
+  <h2>
+     Fetching Questions... 
+  </h2>
+</div>
+`;
+
+exports[`Button should render the entire quiz properly 1`] = `
+<div
+  className="quizBlock"
+>
+  <div>
+    <div
+      className="questionBlock"
+    >
+      <div>
+        <span
+          className="questionCounter"
+        >
+          Javascript Quiz 
+          1
+           of 
+          2
+           
+        </span>
+        <br />
+        <span
+          className="question"
+        >
+          This is the first question
+        </span>
+      </div>
+      <div
+        className="optionBlock"
+      >
+        <div
+          className="option"
+        >
+          <div>
+            A
+             - 
+            answer1
+          </div>
+        </div>
+        <div
+          className="option"
+        >
+          <div>
+            B
+             - 
+            answer2
+          </div>
+        </div>
+        <div
+          className="option"
+        >
+          <div>
+            C
+             - 
+            answer3
+          </div>
+        </div>
+        <div
+          className="option"
+        >
+          <div>
+            D
+             - 
+            answer4
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="optionsBlock"
+    >
+      <input
+        className="button"
+        onClick={[Function]}
+        type="button"
+        value="A"
+      />
+      <input
+        className="button"
+        onClick={[Function]}
+        type="button"
+        value="B"
+      />
+      <input
+        className="button"
+        onClick={[Function]}
+        type="button"
+        value="C"
+      />
+      <input
+        className="button"
+        onClick={[Function]}
+        type="button"
+        value="D"
+      />
+    </div>
+  </div>
+</div>
+`;

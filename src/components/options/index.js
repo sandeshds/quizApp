@@ -17,6 +17,7 @@ class Question extends PureComponent {
         };
         return map(optionsMap, (option, index) => {
             return  <input
+                    key = {index}
                     className="button"
                     type="button"
                     value={index}

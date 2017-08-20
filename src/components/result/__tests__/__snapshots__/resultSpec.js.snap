@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render result properly 1`] = `
+<div
+  className="resultsBlock"
+>
+  <h2>
+     Results 
+  </h2>
+  <table>
+    <tr>
+      <td>
+        Total No of questions
+      </td>
+      <td>
+        8
+      </td>
+    </tr>
+    <tr>
+      <td>
+        No of questions answered correctly
+      </td>
+      <td>
+        2
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Percentage Scored
+      </td>
+      <td>
+        25
+         %
+      </td>
+    </tr>
+  </table>
+  <input
+    className="buttonRetake"
+    onClick={[Function]}
+    type="button"
+    value="Retake Quiz"
+  />
+</div>
+`;
