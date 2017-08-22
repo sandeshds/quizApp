@@ -3,7 +3,6 @@ import {browserHistory} from 'react-router';
 let initialState = {
     showFetchingQuestionsSpinner : true,
     allQuestions : [],
-    questionToDisplay : 0,
     results : 0
 }
 
